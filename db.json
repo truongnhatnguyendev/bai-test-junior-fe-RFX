@@ -156,5 +156,27 @@
       "date": "2025-04-03",
       "time": "17:10:38"
     }
+  ],
+  "loan-applications": [
+    {
+      "id": "01",
+      "borrowerName": "Ms. Hang Nguyen",
+      "borrowerId": "M.400001",
+      "lender": "AD Mortgage",
+      "interestRate": "6.5%",
+      "apr": "16.81%",
+      "progress": 68,
+      "status": "IN PROGRESS"
+    },
+    {
+      "id": "02",
+      "borrowerName": "Mr. John Doe",
+      "borrowerId": "M.400002",
+      "lender": "Sunrise Lending",
+      "interestRate": "5.9%",
+      "apr": "14.25%",
+      "progress": 45,
+      "status": "IN PROGRESS"
+    }
   ]
 }

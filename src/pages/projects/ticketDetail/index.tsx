@@ -75,7 +75,7 @@ export function TicketDetailPage() {
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbPage>abc</BreadcrumbPage>
+            <BreadcrumbPage>Demo</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>

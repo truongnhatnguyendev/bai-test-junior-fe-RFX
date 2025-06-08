@@ -1,15 +1,5 @@
 import { Checkbox } from "@/components/ui/checkbox";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Progress } from "@/components/ui/progress";
-import { Badge } from "@/components/ui/badge";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import {
   ChartLine,
@@ -36,6 +26,7 @@ import { DeepPartial } from "@/utils/deepPartial";
 import { Accordion } from "@/components/Accordion";
 import { GridItem } from "@/components/GridItem";
 import { Header } from "@/components/Header";
+import { LoanApplication } from "./loanApplication";
 
 export function UserManagementPage() {
   const tableRef = useRef<RestfulTableRef>(null);
@@ -219,92 +210,7 @@ export function UserManagementPage() {
                   title="RELATED CLIENTS & LOAN DOCUMENTS"
                   isShowContent
                 >
-                  <Table>
-                    <TableHeader>
-                      <TableRow className="text-[#7c7c7c] bg-[#DAE6EF]  hover:bg-[#DAE6EF] text-sm font-medium">
-                        <TableHead>Index</TableHead>
-                        <TableHead>Borrower Name</TableHead>
-                        <TableHead>Lender</TableHead>
-                        <TableHead>Process</TableHead>
-                        <TableHead>Status</TableHead>
-                        <TableHead>Action</TableHead>
-                      </TableRow>
-                    </TableHeader>
-                    <TableBody>
-                      <TableRow>
-                        <TableCell>
-                          <span className="text-xs text-gray-500">01</span>
-                        </TableCell>
-                        <TableCell>
-                          Ms. Hang Nguyen
-                          <br />
-                          <span className="text-xs text-gray-500">
-                            M.400001
-                          </span>
-                        </TableCell>
-                        <TableCell>
-                          AD Mortgage
-                          <br />
-                          <span className="text-xs text-gray-500">
-                            6.5% (16.81% APR)
-                          </span>
-                        </TableCell>
-                        <TableCell>
-                          <div className="flex items-center gap-2">
-                            <Progress className="h-1.5" value={68} />{" "}
-                            <span>68%</span>
-                          </div>
-                        </TableCell>
-                        <TableCell>
-                          <Badge
-                            variant="secondary"
-                            className="bg-[#E6F7FF] text-[#0EA5E9]"
-                          >
-                            IN PROGRESS
-                          </Badge>
-                        </TableCell>
-                        <TableCell>
-                          <FileText size={16} className="text-blue-600" />
-                        </TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell>
-                          <span className="text-xs text-gray-500">02</span>
-                        </TableCell>
-                        <TableCell>
-                          Ms. Hang Nguyen
-                          <br />
-                          <span className="text-xs text-gray-500">
-                            M.400001
-                          </span>
-                        </TableCell>
-                        <TableCell>
-                          AD Mortgage
-                          <br />
-                          <span className="text-xs text-gray-500">
-                            6.5% (16.81% APR)
-                          </span>
-                        </TableCell>
-                        <TableCell>
-                          <div className="flex items-center gap-2">
-                            <Progress className="h-1.5" value={68} />{" "}
-                            <span>68%</span>
-                          </div>
-                        </TableCell>
-                        <TableCell>
-                          <Badge
-                            variant="secondary"
-                            className="bg-[#E6F7FF] text-[#0EA5E9]"
-                          >
-                            IN PROGRESS
-                          </Badge>
-                        </TableCell>
-                        <TableCell>
-                          <FileText size={16} className="text-blue-600" />
-                        </TableCell>
-                      </TableRow>
-                    </TableBody>
-                  </Table>
+                  <LoanApplication />
                 </Accordion>
                 <Accordion
                   showChevron
