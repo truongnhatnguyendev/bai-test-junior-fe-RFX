@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "userName": "Mr. David Nguyen",
+      "userId": "LOO0001",
+      "contact": {
+        "phone": "(322) 243-3452",
+        "email": "david.nguyen@gmail.com"
+      },
+      "experience": "5 years",
+      "status": "ACTIVE",
+      "type": "Loan Officer"
+    },
+    {
+      "userName": "Ms. Jennie Pink",
+      "userId": "UW0001",
+      "contact": {
+        "phone": "(322) 243-3452",
+        "email": "jenniepink@gmail.com"
+      },
+      "experience": "5 years",
+      "status": "ACTIVE",
+      "type": "Underwriter"
+    },
+    {
+      "userName": "Mr. Pep Guardiola",
+      "userId": "LP0001",
+      "contact": {
+        "phone": "(322) 243-3452",
+        "email": "pepguardiola@gmail.com"
+      },
+      "experience": "5 years",
+      "status": "ACTIVE",
+      "type": "Loan Processor"
+    },
+    {
+      "userName": "Mr. Bruno Mar",
+      "userId": "AD0001",
+      "contact": {
+        "phone": "(322) 243-3452",
+        "email": "brunomors@gmail.com"
+      },
+      "experience": "5 years",
+      "status": "ACTIVE",
+      "type": "Admin"
+    },
+    {
+      "userName": "Mr. David Beckham",
+      "userId": "ME0001",
+      "contact": {
+        "phone": "(322) 243-3452",
+        "email": "davidbeckham@gmail.com"
+      },
+      "experience": "5 years",
+      "status": "ACTIVE",
+      "type": "Member"
+    },
+    {
+      "userName": "Mr. David van",
+      "userId": "ME0002",
+      "contact": {
+        "phone": "(322) 243-3455",
+        "email": "davidvan@gmail.com"
+      },
+      "experience": "4 years",
+      "status": "INACTIVE",
+      "type": "Developer"
+    }
+  ],
+  "category": [
+    { "id": "all", "name": "All Work Packages" },
+    { "id": "architectural", "name": "Architectural WPs" },
+    { "id": "development", "name": "Development WPs" },
+    { "id": "operation", "name": "Operation WPs" },
+    { "id": "basic", "name": "Basic" },
+    { "id": "comprehensive", "name": "Comprehensive" },
+    { "id": "advanced", "name": "Advanced" }
+  ],
+  "workpackages": [
+    {
+      "title": "Work package 1",
+      "description": "Define system structure, tech stack, integration flow...",
+      "categoryId": "architectural"
+    },
+    {
+      "title": "Work package 2",
+      "description": "Build a SPA using SvelteKit...",
+      "categoryId": "development"
+    },
+    {
+      "title": "Work package 3",
+      "description": "Setup CI/CD pipelines...",
+      "categoryId": "operation"
+    },
+    {
+      "title": "Work package 4",
+      "description": "Identify and document business processes, user roles, and key feature...",
+      "categoryId": "basic"
+    },
+    {
+      "title": "Work package 5",
+      "description": "Define overall architecture, services layout, tech stack, and database strate...",
+      "categoryId": "comprehensive"
+    },
+    {
+      "title": "Work package 6",
+      "description": "Design complex data relationships, event flows (CQRS/Event Sourcing), and ...",
+      "categoryId": "advanced"
+    },
+    {
+      "title": "Work package 7",
+      "description": "Deliver wireframes and high-fidelity designs for key screens using Figma ...",
+      "categoryId": "architectural"
+    },
+    {
+      "title": "Work package 8",
+      "description": "Develop frontend using SvelteKit integrated with a CMS like Directus or ...",
+      "categoryId": "development"
+    },
+    {
+      "title": "Work package 9",
+      "description": "Implement domain-driven backend API with authentication, user roles, and ...",
+      "categoryId": "operation"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "1",
+      "company": "RFX",
+      "name": "David Nguyen",
+      "status": "Submitted to underwriting",
+      "date": "2025-04-04",
+      "time": "13:00:38"
+    },
+    {
+      "id": "2",
+      "company": "ABC",
+      "name": "Lisa Rose",
+      "status": "approval",
+      "date": "2025-04-04",
+      "time": "11:10:38"
+    },
+    {
+      "id": "3",
+      "company": "RFX",
+      "name": "David Nguyen",
+      "status": "Submitted to underwriting",
+      "date": "2025-04-04",
+      "time": "08:00:00"
+    },
+    {
+      "id": "4",
+      "company": "ABC",
+      "name": "Lisa Rose",
+      "status": "create an issue",
+      "date": "2025-04-03",
+      "time": "17:10:38"
+    }
+  ]
+}
